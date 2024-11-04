@@ -1,0 +1,26 @@
+{
+  "name": "hyperexpress-middlewrap",
+  "version": "0.1.0",
+  "main": "hyperexpress-middlewrap.js",
+  "description": "Wrap Express.js middleware to use in a Hyperexpress server.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pete Moss (OpenReplicant)",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "mime-types": "^2.1.35"
+  },
+  "devDependencies": {
+    "body-parser": "^1.20.3",
+    "compression": "^1.7.4",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "express-session": "^1.18.1",
+    "helmet": "^8.0.0",
+    "hyper-express": "^6.17.2",
+    "morgan": "^1.10.0",
+    "node-fetch": "^3.3.2"
+  }
+}
